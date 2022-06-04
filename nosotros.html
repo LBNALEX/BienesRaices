@@ -1,0 +1,77 @@
+<html>
+<head>
+	<title>Bienes Raices</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="CSS/Normalize.css">
+	<link rel="stylesheet" type="text/css" href="CSS/estilos.css">
+</head>
+<body>
+
+	<header class="site-header"> <!-- id es cuando se quiere aplicar el estilo a un elemento en especifico-->
+								<!-- class es cuando se va a aplicar a varios elementos-->
+		<div class="contenedor encabezado-nosotros">
+			<div class="barra">
+				<a href="index.html">
+				<img src="img/logo.svg" alt=""> <!-- se pone la imagen dentro del enlace para ir a el al dar clic en la imagen-->
+				</a>
+					<div class="mobile-menu">
+					<a href="#navegacion">
+						<img src="img/barras.svg " alt="Icono Menu">
+					</a>
+				</div>
+				<nav id="navegacion" class="navegacion">
+					<a  href="nosotros.html">Nosotros</a> <!-- La propiedad target="_blank" es para abrir el enlace en otra pesta;a-->
+					<a href="anuncios.html">Anuncios</a> <!-- para ir a un sitio web debo de poner el https://-->
+					<a href="blog.html">Blog</a>
+					<a href="contacto.html">Contacto</a>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<main class="contenedor">
+		<h1 class="fw-300 centrar-texto">Conoce Sobre Nosotros</h1>
+		<div class="contenido-nosotros">
+			<div class="imagen">
+				<img src="img/nosotros.jpg" alt="Imagen Sobre Nosotros">
+			</div>
+			<div class="texto-nosotros">
+				<blockquote>25 Años de Experiencia</blockquote>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus asperiores numquam enim exercitationem officiis voluptatum molestias consectetur aspernatur dolorum, porro dignissimos perspiciatis eveniet distinctio! Minima error corporis harum minus. Delectus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus vel quibusdam est consequatur quis autem vero rerum quia architecto voluptas cum reiciendis nostrum, eligendi, saepe ipsa ullam quos veritatis dolorum.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus asperiores numquam enim exercitationem officiis voluptatum molestias consectetur aspernatur dolorum, porro dignissimos perspiciatis eveniet distinctio! Minima error corporis harum minus. Delectus!</p>
+			</div>
+		</div>
+	</main>
+	<section class="contenedor">  <!-- section se usa cuando el primer nodo es un encabezado y ser un cambio a lo que ya estaba-->
+		<h2 class= "fw-300 centrar-texto">Más sobre nosotros</h2>
+		<div class = "iconos-nosotros"> 
+		<div class="icono">
+			<img src="img/icono1.svg" alt="icono seguridad">
+			<h3 class="encabezado mayusculas">SEGURIDAD</h3>
+			<P>Todas nuestras casas se encuentran en zonas con vigilancia constante, lo cual las hace muy seguras.</P>
+		</div>
+		<div class="icono">
+			<img src="img/icono2.svg" alt="icono mejor precio">
+			<h3 class="encabezado mayusculas">EL MEJOR PRECIO</h3>
+			<P>Contamos con el mejor precio del mercado, aceptamos cualquier tipo de credito.</P>
+		</div>
+		<div class="icono">
+			<img src="img/icono3.svg" alt="icono a tiempo">
+			<h3 class="encabezado mayusculas">A TIEMPO</h3>
+			<P>Los tramites se hacen de manera eficaz, sin tardanzas, para que disfrutes de tu casa lo antes posible.</P>
+		</div>
+		</div>
+	</section>
+	<footer class="site-footer seccion">
+		<div class="contenedor contenedor-footer">
+			<nav class="navegacion">
+				<a target="_blank" href="nosotros.html">Nosotros</a> <!-- La propiedad target="_blank" es para abrir el enlace en otra pesta;a-->
+				<a href="anuncios.html">Anuncios</a> <!-- para ir a un sitio web debo de poner el https://-->
+				<a href="blog.html">Blog</a>
+				<a href="contacto.html">Contacto</a>
+			</nav>
+			<p class="copyright">Todos los Derechos Reservados 2020 &copy;</p> <!-- &copy es una entidad, se pueden utilizar muchas -->
+		</div>
+	</footer>
+	
+</body>
+</html>
